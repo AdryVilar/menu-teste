@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background:linear-gradient( #0f420f, #8fc58f)
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+}
+.nav-menu{
+    display: flex;
+    gap: 62px;
+}
+.cabecalho-menu-item{
+    color: rgb(218, 218, 218);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+    font-family: 'Righteous', cursive;
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top:0.4px solid rgb(66, 139, 89);
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagem-camera-conteudo-principal{
+       padding: 48px;
+        width: 400px;
+        height: 400px;
+        text-shadow: white 0px 0px 2px;
+        font-size: 16px;
+        background-size: 150px;
+}
